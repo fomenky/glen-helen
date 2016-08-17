@@ -12,6 +12,7 @@
 		B53B472A1D62812300DBE6EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53B47281D62812300DBE6EB /* Main.storyboard */; };
 		B53B472C1D62812300DBE6EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53B472B1D62812300DBE6EB /* Assets.xcassets */; };
 		B53B472F1D62812300DBE6EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53B472D1D62812300DBE6EB /* LaunchScreen.storyboard */; };
+		B53B47371D63D31C00DBE6EB /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53B47361D63D31C00DBE6EB /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B53B472B1D62812300DBE6EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B53B472E1D62812300DBE6EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B53B47301D62812300DBE6EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B53B47361D63D31C00DBE6EB /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				B53B472B1D62812300DBE6EB /* Assets.xcassets */,
 				B53B472D1D62812300DBE6EB /* LaunchScreen.storyboard */,
 				B53B47301D62812300DBE6EB /* Info.plist */,
+				B53B47361D63D31C00DBE6EB /* DetailVC.swift */,
 			);
 			path = "glen-helen";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				B53B47271D62812300DBE6EB /* ViewController.swift in Sources */,
 				B53B47251D62812300DBE6EB /* AppDelegate.swift in Sources */,
+				B53B47371D63D31C00DBE6EB /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +290,7 @@
 				B53B47351D62812300DBE6EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
